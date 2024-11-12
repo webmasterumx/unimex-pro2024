@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', [UnimexController::class, 'inicio'])->name('inicio');
 Route::get('/planteles/{slug}', [UnimexController::class, 'getPlanteles'])->name('plantel');
 Route::get('/acerca-de-unimex/{alug}', [UnimexController::class, 'getAcercade'])->name('acercade');
