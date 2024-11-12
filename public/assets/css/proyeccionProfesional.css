@@ -1,0 +1,228 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*body*/
+.bg {
+    background-image: url(../img/proyeccionProfesional/web/bg01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    */
+}
+
+
+/*nav/header*/
+.navbar {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+
+}
+
+#header-logo {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
+}
+
+/*formulario*/
+
+#formulario {
+
+    margin: 20px;
+    margin-bottom: 55px;
+    color: white;
+    border: 2px solid white;
+    height: 625px;
+    padding: 15px;
+
+}
+
+form {
+    padding: 5px;
+}
+
+form button[type="submit"] {
+
+    background-color: #f8981d;
+    color: white;
+}
+
+#check {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#img-proyeccion {
+    top: 50%;
+    bottom: 50%;
+    position: relative;
+    height: 182px;
+}
+
+@media (max-width: 575.98px) {
+
+    /*body*/
+    .bg {
+        background-image: url(../img/proyeccionProfesional/mobile/background-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    /*navbar*/
+    #contenedor-nav {
+        justify-content: center;
+    }
+
+    .col-md-8 {
+        display: none;
+    }
+
+    #formulario {
+
+        margin: 20px;
+        margin-bottom: 55px;
+        color: white;
+        border: 2px solid white;
+        height: 670px;
+        padding: 15px;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*body*/
+    .bg {
+        background-image: url(../img/proyeccionProfesional/mobile/background-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    /*navbar*/
+    #contenedor-nav {
+        justify-content: center;
+    }
+
+    .col-md-8 {
+        display: none;
+    }
+
+    #formulario {
+
+        margin: 20px;
+        margin-bottom: 55px;
+        color: white;
+        border: 2px solid white;
+        height: 670px;
+        padding: 15px;
+
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .bg {
+        background-image: url(../img/proyeccionProfesional/web/bg01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+    #formulario {
+
+        margin: 20px;
+        margin-bottom: 55px;
+        color: white;
+        border: 2px solid white;
+        height: 665px;
+        padding: 15px;
+
+    }
+
+    h1 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .bg {
+        background-image: url(../img/proyeccionProfesional/web/bg01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+    #formulario {
+
+        margin: 20px;
+        margin-bottom: 55px;
+        color: white;
+        border: 2px solid white;
+        height: 670px;
+        padding: 15px;
+
+    }
+
+    h1 {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+    .bg {
+        background-image: url(../img/proyeccionProfesional/web/bg01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+    h1 {
+        display: none;
+    }
+
+}

@@ -1,0 +1,109 @@
+body {
+    background: #000046;
+    background: -webkit-linear-gradient(to bottom, #1cb5e0, #000046);
+    background: linear-gradient(to bottom, #1cb5e0, #000046);
+    display: flex;
+    min-height: 100vh
+}
+
+a.disabled {
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.pleca-pregunta {
+    background-color: rgba(190, 192, 194, .5);
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 0 0 20px #00245d
+}
+
+.imgBorder {
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    -moz-box-shadow: 0 1px 2px rgba(34, 25, 25, .4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4)
+}
+
+.imgBorder:hover {
+    webkit-transition: opacity .4s, -webkit-transform .4s;
+    transition: opacity .4s, transform .4s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.center-answer {
+    width: 100%;
+    padding: 20px
+}
+
+.center-answerbody {
+    width: 100%;
+    padding: 0 50px
+}
+
+.title-main {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 2.3em;
+    text-shadow: #000 1px 1px;
+    color: #f8f8ff
+}
+
+.title-answer {
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-size: 2em;
+    color: #f0f8ff;
+    text-shadow: #000 1px 1px
+}
+
+.title-pregunta {
+    font-family: Noto Sans;
+    font-weight: 800;
+    color: #00245d;
+    font-size: 2em;
+    text-align: justify;
+    padding: 10px
+}
+
+.response-answer {
+    font-size: 1.8em;
+    color: #dc9a00;
+    font-weight: 600;
+    font-family: Lato
+}
+
+.zoom:hover {
+    webkit-transition: opacity .4s, -webkit-transform .4s;
+    transition: opacity .4s, transform .4s;
+    transform: scale(1.1)
+}
+
+.title-parrafo {
+    font-family: Noto Sans;
+    font-weight: 600;
+    color: #00245d;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.8
+}
+
+.title-hemis {
+    font-family: Lato;
+    font-weight: 600;
+    color: #8a2be2;
+    font-size: 3em;
+    margin: 50px 0 0 0;
+    text-align: center;
+    text-shadow: 2px 1px #000
+}

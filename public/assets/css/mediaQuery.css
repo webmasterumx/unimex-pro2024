@@ -1,0 +1,823 @@
+@media (min-width: 200px) and (max-width: 400px) {
+
+    /*
+        ==========> PAGINA INICIAL <============
+
+
+        Estilos de banner inicial
+    */
+    #bannerInicial {
+        height: 10rem;
+    }
+
+    /*
+        Estilos de flechas para carrucel de carreras en pagina de incio
+    */
+    .slick-prev {
+        left: 6%;
+        top: 50%;
+    }
+
+    .slick-next {
+        right: 2%;
+        top: 50%;
+    }
+
+    /*
+        Estilos del contenedor de cada item del carrucel inicial
+    */
+    .itemBannerInit {
+        height: 15rem;
+    }
+
+    /*
+        ================> MODAL INICIAL <================
+
+        Estilos del modal inicial que redirige a calculadora de becas
+    */
+    #closeModalCalculadora {
+        position: relative;
+        top: 12%;
+        left: 49%;
+    }
+
+    /*
+
+        ================> PAGINA ACERCA DE <=================
+
+        Estilos de la portada de esta pagina
+    */
+    #historia {
+        height: 38vh;
+    }
+
+    /*
+
+        Estilos de las etiquetas de la portada
+
+        -> normal 
+        -> mensaje del rector
+
+    */
+    .etiqueta-titulo-acercade {
+        top: 38%;
+        width: 50%;
+        font-size: 32px;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 34%;
+        font-size: 30px;
+        width: 96%;
+    }
+
+    /*
+        Estilos para imagenes de acerca de  <servicios>
+    */
+    .fondoServiciosSm {
+        display: block;
+        height: 200px;
+    }
+
+    /*
+
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 30vh;
+    }
+
+    #contraportada {
+        height: 18rem;
+    }
+
+    .etiqueta-titulo {
+        font-size: 16px !important;
+        text-align: center;
+    }
+
+    #requisitos {
+        height: 60rem;
+    }
+
+    /*
+
+        ========================> Estilos para oferta licenciatura Sua <========================
+
+    */
+
+    #carrucelVentajas {
+        height: 290px;
+    }
+
+    #campo_laboral {
+        height: 10rem;
+    }
+
+
+    #requisitosSUA {
+        height: 54rem;
+    }
+
+    /*
+
+        =====================> Estilos en la Pagina de Plantel <============================
+
+    */
+    #plantel {
+        height: 30vh;
+    }
+
+    /*
+        Estilos de la tarjeta descriptiva que aparece en el mapa de los planteles
+    */
+    .card-ld {
+        display: none;
+    }
+
+    /*
+        Estilos de las flechas del carrucel de imagenes de cada plantel
+    */
+    .slick-prev-plantel {
+        left: 7%;
+    }
+
+    .slick-next-plantel {
+        right: 4%;
+    }
+
+    /*
+        Estilos para los inputs de catcha de los formularios de contacto
+    */
+    #number3,
+    #number4,
+    #number1,
+    #number2,
+    #number5,
+    #number6,
+    #number7,
+    #number8 {
+        width: 100%;
+    }
+}
+
+/*
+    Pendientes --------- =P
+*/
+@media (min-width: 400px) and (max-width: 500.98px) {
+
+    /*
+        ==========> PAGINA INICIAL <============
+
+
+        Estilos de banner inicial
+    */
+    #bannerInicial {
+        height: 12rem;
+    }
+
+    /*
+        Estilos de flechas para carrucel de carreras en pagina de incio
+    */
+    .slick-prev {
+        top: 50%;
+        left: 4%;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: 2%;
+    }
+
+    /*
+        Estilos del contenedor de cada item del carrucel inicial
+    */
+    .itemBannerInit {
+        height: 15rem;
+    }
+
+    /*
+        ================> MODAL INICIAL <================
+
+        Estilos del modal inicial que redirige a calculadora de becas
+    */
+    #closeModalCalculadora {
+        position: relative;
+        top: 13%;
+        left: 46%;
+    }
+
+    /*
+
+        ================> PAGINA ACERCA DE <=================
+
+        Estilos de la portada de esta pagina
+    */
+    #historia {
+        height: 28vh;
+    }
+
+    /*
+
+        Estilos de las etiquetas de la portada
+
+        -> normal 
+        -> mensaje del rector
+
+    */
+    .etiqueta-titulo-acercade {
+        top: 38%;
+        width: 50%;
+        font-size: 32px;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 38%;
+        font-size: 32px;
+        width: 92%;
+    }
+
+    /*
+        Estilos para imagenes de acerca de  <servicios>
+    */
+    .fondoServiciosSm {
+        display: block;
+        height: 200px;
+    }
+
+    /*
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 30vh;
+    }
+
+    #contraportada {
+        height: 26rem;
+    }
+
+    .etiqueta-titulo {
+        font-size: 16px !important;
+        text-align: center;
+    }
+
+    #requisitos {
+        height: 50rem;
+    }
+
+    /*
+
+        ========================> Estilos para oferta licenciatura Sua <========================
+
+    */
+
+    #carrucelVentajas {
+        height: 290px;
+    }
+
+    #campo_laboral {
+        height: 10rem;
+    }
+
+    #requisitosSUA {
+        height: 46rem;
+    }
+
+    /*
+
+        =====================> Estilos en la Pagina de Plantel <============================
+
+    */
+    #plantel {
+        height: 30vh;
+    }
+
+    /*
+        Estilos de la tarjeta descriptiva que aparece en el mapa de los planteles
+    */
+    .card-ld {
+        display: none;
+    }
+
+    /*
+        Estilos de las flechas del carrucel de imagenes de cada plantel
+    */
+    .slick-prev-plantel {
+        left: 7%;
+    }
+
+    .slick-next-plantel {
+        right: 4%;
+    }
+
+    /*
+        Estilos para los inputs de catcha de los formularios de contacto
+    */
+    #number3,
+    #number4,
+    #number1,
+    #number2,
+    #number5,
+    #number6,
+    #number7,
+    #number8 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600.98px) {
+    #bannerInicial {
+        height: 11rem;
+    }
+
+    .slick-prev {
+        top: 50%;
+        left: 4%;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: 2%;
+    }
+
+    #closeModalCalculadora {
+        position: relative;
+        top: 13%;
+        left: 46%;
+    }
+
+    .etiqueta-titulo-acercade {
+        top: 38%;
+        font-size: 32px;
+    }
+
+    #historia {
+        height: 38vh;
+    }
+
+    .itemBannerInit {
+        height: 15rem;
+    }
+
+
+    /*
+
+        ================> PAGINA ACERCA DE <=================
+
+        Estilos de la portada de esta pagina
+    */
+    #historia {
+        height: 38vh;
+    }
+
+    /*
+
+        ================> PAGINA ACERCA DE <=================
+
+        Estilos de la portada de esta pagina
+    */
+    #historia {
+        height: 70vh;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 38%;
+        font-size: 32px;
+        width: 58%;
+    }
+
+    /*
+
+        =====================> Estilos en la Pagina de Plantel <============================
+
+    */
+    #plantel {
+        height: 68vh;
+    }
+
+    /*
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 78vh;
+    }
+
+    .navigation {
+        padding: 1px 0 !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800.98px) {
+    #bannerInicial {
+        height: 20rem;
+    }
+
+    #closeModalCalculadora {
+        position: relative;
+        top: 9%;
+        left: 49%;
+    }
+
+    .slick-prev {
+        top: 50%;
+        left: 1%;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: 0%;
+    }
+
+    .itemBannerInit {
+        height: 20rem;
+    }
+
+
+    /*
+
+        ================> PAGINA ACERCA DE <=================
+
+        Estilos de la portada de esta pagina
+    */
+    #historia {
+        height: 40vh;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 38%;
+        font-size: 32px;
+        width: 70%;
+    }
+
+    .etiqueta-titulo-acercade {
+        top: 38%;
+        font-size: 36px;
+        width: 36%;
+    }
+
+
+    /*
+
+        =====================> Estilos en la Pagina de Plantel <============================
+
+    */
+    #plantel {
+        height: 68vh;
+    }
+
+    /*
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 35vh;
+    }
+
+    .navigation {
+        padding: 1px 0 !important;
+    }
+
+    #contraportada {
+        height: 30rem;
+    }
+
+    #requisitos {
+        height: 30rem;
+    }
+
+    #carrucelVentajas {
+        height: 30rem !important;
+    }
+
+    #campo_laboral {
+        height: 10rem;
+    }
+
+    #requisitosSUA {
+        height: 28rem;
+    }
+
+    #fondoServiciosSm{
+        display: block;
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 800.98px) and (max-width: 900.98px) {
+
+    #bannerInicial {
+        height: 24rem;
+    }
+
+    #closeModalCalculadora {
+        position: relative;
+        top: 14%;
+        left: 46%;
+    }
+
+    #historia {
+        height: 40vh;
+    }
+
+    .etiqueta-titulo-acercade {
+        top: 40%;
+        font-size: 42px;
+        width: 34%;
+    }
+
+    .slick-prev {
+        top: 50%;
+        left: 1%;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: -1%;
+    }
+
+    .itemBannerInit {
+        height: 24rem;
+    }
+
+    /*
+
+        ================> PAGINA ACERCA DE <=================
+
+        Estilos de la portada de esta pagina
+    */
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 38%;
+        font-size: 32px;
+        width: 58%;
+    }
+
+    /*
+
+        =====================> Estilos en la Pagina de Plantel <============================
+
+    */
+    #plantel {
+        height: 68vh;
+    }
+
+    /*
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 78vh;
+    }
+
+    #contraportada {
+        height: 28rem;
+    }
+}
+
+@media (min-width: 900.98px) and (max-width: 1199.98px) {
+
+    #bannerInicial {
+        height: 26rem;
+    }
+
+    #closeModalCalculadora {
+        position: relative;
+        top: 12%;
+        left: 46%;
+    }
+
+    .slick-prev {
+        top: 50%;
+        left: 3%;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: 4%;
+    }
+
+    .itemBannerInit {
+        height: 26rem;
+    }
+
+    #historia {
+        height: 80vh;
+    }
+
+    .etiqueta-titulo-acercade {
+        top: 38%;
+        font-size: 44px;
+        width: 34%;
+    }
+
+    /*
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 50vh;
+    }
+
+    #text_ventajas {
+        height: 23.3rem !important;
+    }
+
+    #carrucelVentajas {
+        height: 24rem !important;
+    }
+
+    #campo_laboral {
+        height: 5rem !important;
+    }
+
+    .slick-prev-campo {
+        left: -20px !important;
+    }
+
+    .slick-next-campo {
+        right: -28px !important;
+    }
+
+    #requisitos {
+        height: 30rem !important;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 30%;
+        font-size: 32px;
+        width: 60%;
+    }
+
+    .fondoServiciosSm {
+        display: none;
+    }
+}
+
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+
+    #bannerInicial {
+        height: 34rem;
+    }
+
+    #closeModalCalculadora {
+        position: relative;
+        top: -46%;
+        left: 71%;
+    }
+
+    .slick-prev {
+        top: 50%;
+        left: 0;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: 0;
+    }
+
+    .itemBannerInit {
+        height: 34rem;
+    }
+
+    #historia {
+        height: 70vh;
+    }
+
+    .etiqueta-titulo-acercade {
+        top: 38%;
+        font-size: 50px;
+        width: 34%;
+    }
+
+
+    .fondoServiciosSm {
+        display: none;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 32%;
+        font-size: 50px;
+        width: 52%;
+    }
+
+    #plantel {
+        height: 75vh;
+    }
+
+    .card-ld {
+        display: block;
+    }
+
+    /*
+
+        ================> Paginas de oferta academica <===================
+
+    */
+    #portada {
+        height: 90vh;
+    }
+
+    .etiqueta-titulo {
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    #campo_laboral {
+        height: 15rem;
+    }
+
+    /*
+        Estilos para los inputs de catcha de los formularios de contacto
+    */
+    #number3,
+    #number4,
+    #number1,
+    #number2,
+    #number5,
+    #number6,
+    #number7,
+    #number8 {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1399.98px) {
+
+    #bannerInicial {
+        height: 32rem;
+    }
+
+    #closeModalCalculadora {
+        position: relative;
+        top: -42%;
+        left: 73%;
+    }
+
+    .slick-prev {
+        top: 50%;
+        left: 0;
+    }
+
+    .slick-next {
+        top: 50%;
+        right: 0;
+    }
+
+    .itemBannerInit {
+        height: 32rem !important;
+    }
+
+    #historia {
+        height: 70vh;
+    }
+
+    .fondoServiciosSm {
+        display: none;
+    }
+
+    .etiqueta-titulo-acercade-mensaje {
+        top: 34%;
+        font-size: 30px;
+        width: 96%;
+    }
+
+    #plantel {
+        height: 75vh;
+    }
+
+    .card-ld {
+        display: block;
+    }
+
+    #portada {
+        height: 90vh;
+    }
+
+    .etiqueta-titulo {
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    #campo_laboral {
+        height: 15rem;
+    }
+
+    /*
+        Estilos para los inputs de catcha de los formularios de contacto
+    */
+    #number3,
+    #number4,
+    #number1,
+    #number2,
+    #number5,
+    #number6,
+    #number7,
+    #number8 {
+        width: 40%;
+    }
+}
