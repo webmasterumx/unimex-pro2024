@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        /* $utmRecurso = new UtmController();
+        $utmRecurso = new UtmController();
         $dataUtm = $utmRecurso->iniciarUtmSource();
         $planteles = Plantel::all();
         $acercade = Acercade::all();
@@ -37,6 +37,6 @@ class AppServiceProvider extends ServiceProvider
             "dataUTM" => $dataUtm
         );
 
-        View::share('data', $data); */
+        View::share('data', $data);
     }
 }
